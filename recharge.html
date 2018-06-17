@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>泽一贷-产品详情</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <script src="js/fontSize.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/recharge.css">
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="wrap">
+            <a href="#"> <img src="./images/icon-cart-left.png" alt=""></a>
+            充值
+        </div>
+    </div>
+    <div class="tit">充值金额</div>
+    <div class="count"><i>￥</i><input type="text" placeholder="100.00"><span class="reset"></span></div>
+    <div class="rest">可用余额(元)：<span>0.00</span></div>
+    <script>
+        $('.reset').click(function () {
+            $(this).prev().val('');
+        })
+    </script>
+</div>
+<div class="nav-bar">
+    <div class="wrap">
+        <a href="#" class="btn">充值</a>
+    </div>
+</div>
+<div class="model">
+    <div class="count">5</div>
+</div>
+<script src="js/count-down.js"></script>
+</body>
+</html>

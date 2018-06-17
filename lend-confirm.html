@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>泽一贷-产品详情</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <script src="js/fontSize.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/lend-confirm.css">
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="wrap">
+            <a href="#"> <img src="./images/icon-cart-left.png" alt=""></a>
+            出借确认
+        </div>
+    </div>
+    <div class="tit">充值金额</div>
+    <div class="count"><i>￥</i><input type="text" placeholder="请输入100的整数倍"><a href="#">全投</a></div>
+    <div class="rest">可用余额(元)：<span>0.00</span><a href="#">充值</a></div>
+    <div class="detail">
+        <a href="#"><img src="./images/icon-nhjkll.png" alt=""><span>7.5%</span><br>约定年化借款利率</a>
+        <a href="#"><img src="./images/icon-yqsy.png" alt=""><span>0.00</span><br>预期收益(元)</a>
+        <a href="#"><img src="./images/icon-ayfx.png" alt=""><span>按月付息</span><br>还款方式</a>
+        <a href="#"><img src="./images/icon-crjx.png" alt=""><span>次日计息</span><br>计息时间</a>
+    </div>
+    <p class="confirm"><i></i>同意出借合同</p>
+    <script>
+        $('.confirm').click(function () {
+            $(this).find('i').toggleClass('checked');
+        })
+    </script>
+</div>
+
+
+
+<div class="nav-bar">
+    <div class="wrap">
+        <a href="#">确认投标</a>
+    </div>
+</div>
+</body>
+</html>
