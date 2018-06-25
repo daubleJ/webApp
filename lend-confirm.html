@@ -33,14 +33,28 @@
             $(this).find('i').toggleClass('checked');
         })
     </script>
+    <div class="footer"></div>
 </div>
-
-
 
 <div class="nav-bar">
     <div class="wrap">
-        <a href="#">确认投标</a>
+        <a href="#" onclick="myConfirm()">确认投标</a>
     </div>
 </div>
+<div class="confirm-model">
+    <div class="box">
+        <h4>温馨提示</h4>
+        <p class="msg">您必须先完成使命认证</p>
+        <p class="btn clear"><a href="#">取消</a><a href="#">认证</a></p>
+    </div>
+</div>
+<script>
+    function myConfirm() {
+        $('.confirm-model').show();
+        $('.confirm-model a').click(function () {
+            $('.confirm-model').hide();
+        })
+    }
+</script>
 </body>
 </html>
