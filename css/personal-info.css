@@ -1,0 +1,47 @@
+.container {
+  width: 7.5rem;
+  margin: 0 auto;
+  background-color: #f4f4f4;
+  min-height: 100%;
+}
+.wrap {
+  width: 6.6rem;
+  margin: 0 auto;
+}
+.header {
+  line-height: .8rem;
+  color: #fff;
+  font-size: .34rem;
+  background: #ff5a5a;
+  text-align: center;
+}
+.header img {
+  float: left;
+  width: .2rem;
+  height: .36rem;
+  margin-top: .22rem;
+}
+.content ul {
+  background-color: #fff;
+  margin-top: .1rem;
+}
+.content ul li {
+  line-height: 1rem;
+  border-bottom: 1px solid #eee;
+  font-size: .28rem;
+  padding: 0 .3rem;
+}
+.content ul li a {
+  float: right;
+}
+.content ul li a i {
+  font-size: .32rem;
+  color: #999;
+  padding: 0 .1rem;
+}
+.content .block02 a {
+  color: #ff6561;
+}
+.content .block03 a {
+  color: #ff6561;
+}
