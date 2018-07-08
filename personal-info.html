@@ -6,6 +6,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <script src="js/fontSize.js"></script>
+    <script src="js/jquery.min.js"></script>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/personal-info.css">
 </head>
@@ -25,7 +26,21 @@
            <li class="bank-card">银行卡 <a href="#"><span>--</span><i>&gt;</i></a></li>
        </ul>
        <ul class="block02">
-           <li>存管账户 <a href="#"><span>立即开户</span><i>&gt;</i></a></li>
+           <li>存管账户 <a href="#"><span class="txt">立即开户</span><i>&gt;</i></a>
+                   <ul class="hide01">
+                       <li class="count">开户手机 <a href="#"><span>13811002937</span></a></li>
+                       <li class="name">真实姓名 <a href="#"><span>贺函</span></a></li>
+                       <li class="id">身份证号 <a href="#"><span>120189199201191290</span></a></li>
+                       <li class="bank-card">银行卡 <a href="#"><span>6225********8789</span></a></li>
+                   </ul>
+                   <ul class="hide02">
+                       <li class="count">开户手机 <input type="text" placeholder="请输入开户手机"></li>
+                       <li class="name">真实姓名 <input type="text" placeholder="请输入真实姓名"></li>
+                       <li class="id">身份证号  <input type="text" placeholder="请输入身份证号"></li>
+                       <li class="bank-card">银行卡  <input type="text" placeholder="请输入银行卡号"></li>
+                       <li><input type="submit" value="开户"></li>
+                   </ul>
+           </li>
            <li>交易密码 <a href="#"><span>立即设置</span><i>&gt;</i></a></li>
            <li>自动投标 <a href="#"><span>立即设置</span><i>&gt;</i></a></li>
        </ul>
@@ -34,5 +49,6 @@
        </ul>
    </div>
 </div>
+<script src="js/personal-info.js"></script>
 </body>
 </html>

@@ -45,3 +45,24 @@
 .content .block03 a {
   color: #ff6561;
 }
+.hide01 {
+  display: none;
+}
+.hide02 {
+  display: none;
+}
+.hide02 input {
+  width: 4.8rem;
+  height: .6rem;
+  border: none;
+  outline: none;
+  margin-left: .1rem;
+}
+.hide02 li:last-child {
+  text-align: center;
+}
+.hide02 li:last-child input {
+  background-color: #ff5a5a;
+  color: #fff;
+  border-radius: .05rem;
+}
