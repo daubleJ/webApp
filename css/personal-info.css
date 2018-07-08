@@ -57,6 +57,7 @@
   border: none;
   outline: none;
   margin-left: .1rem;
+  font-size: .28rem ;
 }
 .hide02 li:last-child {
   text-align: center;

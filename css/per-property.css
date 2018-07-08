@@ -142,3 +142,6 @@
   font-size: .3rem;
   color: #333;
 }
+.a-item .list-finish {
+  display: none;
+}
