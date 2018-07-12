@@ -205,3 +205,41 @@ border-radius: .4rem;
 .confirm-model a:nth-child(1){
     border-right: 1px solid #b0b0b0;
 }
+/*xieyi*/
+.xieyi{
+    display: none;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.2);
+}
+.xieyi .box{
+    width: 7.2rem;
+    background-color: #ffffff;
+    margin: .7rem auto;
+    height: 90%;
+
+}
+.xieyi .box .close{
+    position: relative;
+    top:-.2rem;
+    right: -.1rem;
+    width: .6rem;
+    height: .6rem;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    line-height: .6rem;
+    text-align: center;
+    border-radius: 50%;
+    float: right;
+    font-size: .4rem;
+}
+.xieyi .box h5{
+    text-align: center;
+    line-height: 3;
+}
+.xieyi .box p{
+    text-indent: 2em;
+}
