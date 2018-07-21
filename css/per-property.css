@@ -123,6 +123,9 @@
   font-weight: normal;
   margin-left: .16rem;
 }
+.a-item li h5 .download{
+  float: right;
+}
 .a-item li:first-child {
   border-top: none ;
 }
