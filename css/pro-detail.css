@@ -98,14 +98,16 @@
     overflow: hidden;
 }
 .progress-bar{
+    position: relative;
     background:#d8d8d8;
     height: .2rem;
     margin-top: .5rem;
     border-radius: .1rem;
 }
 .progress-bar span{
-    position: relative;
-    float: left;
+    position: absolute;
+    top:0;
+    left: 0;
     background:#ff5c6c;
     height: .2rem;
     width: 60%;
@@ -113,13 +115,14 @@
 }
 .progress-bar span i{
     position: absolute;
-    top:-.06rem;
+    top:-.08rem;
     right: 0;
     width: .3rem;
     height: .3rem;
     background: #ff5c6c;
     border-radius: 50%;
     border: 2px solid #fff;
+    left: 0;
 }
 .progress p:nth-child(2){
     line-height: .8rem;
