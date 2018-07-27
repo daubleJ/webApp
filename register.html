@@ -20,8 +20,8 @@
         </div>
     </div>
 <div class="count"><img src="./images/icon-phone.gif" alt=""><input type="text" placeholder="请输入手机号"></div>
-    <div class="count"><img src="./images/icon-code.gif" alt=""><input type="text" placeholder="请输入短信验证码"><a
-            href="#" class="getCode">获取验证码</a></div>
+    <div class="count"><img src="./images/icon-code.gif" alt=""><input type="text" placeholder="请输入短信验证码"><button
+            class="getCode" >获取验证码</button></div>
     <div class="wrap btn">
     <a href="#" class="btn">注册</a>
     </div>
@@ -29,12 +29,28 @@
     <script>
         $('.confirm i').click(function () {
             $(this).toggleClass('checked');
-        })
+        });
     </script>
 </div>
 
 <div class="model">
     <div class="count">充值处理中...<br><i>5</i></div>
 </div>
+<script>
+    $('.getCode').click(function(){
+        this.disabled = true;
+        var num = 30;
+        $('.getCode').html(num+'s');
+        var timer = setInterval(function(){
+            num--;
+            $('.getCode').html(num+'s');
+            if(num===0){
+                $('.getCode').prop('disabled',false);
+                $('.getCode').html('重新获取');
+                clearInterval(timer);
+            }
+        },1000);
+    })
+</script>
 </body>
 </html>

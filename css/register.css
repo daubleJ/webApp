@@ -57,6 +57,15 @@
   margin-left: 20px;
   margin-top: .2rem;
 }
+.count button{
+  border: none;
+  background-color: #fff;
+  padding: 0 .2rem;
+  font-size: .24rem;
+  line-height: .6rem;
+  margin-top: .2rem;
+  vertical-align: middle;
+}
 .btn {
   /* width: 3.3rem;*/
   text-align: center;
