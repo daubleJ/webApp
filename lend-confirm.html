@@ -48,6 +48,13 @@
         <p class="btn clear"><a href="#">取消</a><a href="#">认证</a></p>
     </div>
 </div>
+<div class="alert-model">
+    <div class="box">
+        <h4>温馨提示</h4>
+        <p class="msg">您必须先完成实名认证</p>
+        <p class="btn"><a href="#" onclick="closeModel();">确认</a></p>
+    </div>
+</div>
 <div class="xieyi">
     <div class="box">
         <div class="close">X</div>
@@ -64,6 +71,9 @@
         $('.confirm-model a').click(function () {
             $('.confirm-model').hide();
         })
+    }
+    function closeModel() {
+        $('.alert-model').hide();
     }
     $('.confirm a').click(function () {
         $('.xieyi').show();
